@@ -1,17 +1,15 @@
 import './index.scss';
 import Header from '../Header'
-import Navigation from '../Navigation'
 import Project from '../Project'
 import Footer from '../Footer'
 
 
 const Layout = () => {
-    return <>
+    return <div className="Layout">
         <Header />
-        <Navigation />
         <Project />
         <Footer />
-    </>
+    </div>
 }
 
 export default Layout

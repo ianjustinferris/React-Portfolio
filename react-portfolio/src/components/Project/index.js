@@ -1,5 +1,5 @@
 import './index.scss'
 
-const Project = () => <>default project</>
-
+const Project = () =>
+    <div className='Project'></div>
 export default Project
