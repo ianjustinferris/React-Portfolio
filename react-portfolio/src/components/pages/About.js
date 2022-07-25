@@ -9,7 +9,7 @@ export default function About() {
                 <img className='portrait' src={portrait} alt='head-shot'></img>
                 <p id="aboutText">
                     A background in Engineering and Art, I'm looking to integrate those skills into the world of Web-Development. Most recently I'm
-                    interested Machine Learning applications as it relates how we interact with the world on a daily basis.
+                    interested Machine Learning applications as it relates to how we interact with the world on a daily basis.
                 </p>
             </div>
         </div>

@@ -114,3 +114,39 @@ body {
 .navbar-toggler-icon {
     z-index: 100
 }
+
+.Contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#email {
+    margin-top: 5vw
+}
+
+#phone {
+    margin-top: 5vw;
+}
+
+.Footer {
+    position: absolute;
+    height: 5vw;
+
+}
+
+i {
+    margin-right: 2.5vw;
+    margin-left: 2.5vw;
+    font-size: 10vw;
+    color: black;
+    text-decoration: none;
+}
+
+.fixed-bottom {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 8vw
+}
