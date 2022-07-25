@@ -17,6 +17,105 @@ li {
     list-style: none
 }
 
-.navbar-toggler-icon {
-    color: black
+.nav {
+    display: flex;
+    justify-content: center;
+}
+
+.slick-slide img {
+    margin: auto;
+    margin-top: 3vw
+}
+
+.slick-next {
+    right: 25px;
+}
+
+#nameF {
+
+    margin-left: 19vw;
+    font-size: 7vw;
+    display: flex;
+
+    letter-spacing: 20vw;
+}
+
+#nameL {
+
+    margin-left: 19vw;
+    font-size: 7vw;
+    display: flex;
+
+    letter-spacing: 5.8vw;
+}
+
+#fs {
+    margin-left: 19vw;
+    font-size: 7vw;
+    display: flex;
+
+    letter-spacing: 1.2vw;
+}
+
+#d {
+    margin-left: 19vw;
+    font-size: 7vw;
+    display: flex;
+
+    letter-spacing: 1.55vw;
+}
+
+.Home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    height: 90vh;
+    background-color: white;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // background-color: gray;
+    margin-left: 7vw;
+    margin-right: 7vw
+}
+
+.navWrapper {
+    padding: 0px;
+
+
+}
+
+.portrait {
+
+    clip-path: polygon(50% 0%, 10% 100%, 100% 110%);
+
+
+}
+
+.About {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#aboutText {
+    display: flex;
+    justify-content: center;
+    width: 20vw;
+    min-width: 300px;
+    letter-spacing: .75vw;
+    // margin-left: 10vw
+}
+
+.aboutWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%
 }

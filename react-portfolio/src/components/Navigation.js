@@ -1,17 +1,16 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 
 
 function NavTabs({ currentPage, handlePageChange }) {
     return (
-        <Navbar bg="light" expand="lg">
-            <Container>
-                <Navbar.Brand href="#home"></Navbar.Brand>
-                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar bg="white" expand="lg">
+            <Navbar.Brand href="#home"></Navbar.Brand>
+            <Container className="navWrapper">
+                <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="me-auto">
+                    <Nav className="m-auto justify-content-center align-items-center">
                         <Nav.Link href="#home" onClick={() => handlePageChange('Home')}
                             className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}>
 

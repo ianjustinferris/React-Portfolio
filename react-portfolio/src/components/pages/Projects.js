@@ -1,22 +1,67 @@
-import React from 'react';
+import React, { Component } from "react";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
-export default function Projects() {
+import one from '../../assets/images/2.png'
+
+
+function SampleNextArrow(props) {
+    const { className, style, onClick } = props;
     return (
-        <div>
-            <h1>Contact Page</h1>
-            <p>
-                Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-                molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-                magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-                efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-                mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-                posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-                faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-                ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-                dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-                conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-                rhoncus. Etiam vel condimentum magna, quis tempor nulla.
-            </p>
-        </div>
+        <div
+            className={className}
+            style={{ ...style, display: "block", background: "red" }}
+            onClick={onClick}
+        />
     );
+}
+
+function SamplePrevArrow(props) {
+    const { className, style, onClick } = props;
+    return (
+        <div
+            className={className}
+            style={{ ...style, display: "block", background: "green" }}
+            onClick={onClick}
+        />
+    );
+}
+
+export default class CustomArrows extends Component {
+    render() {
+        const settings = {
+            dots: true,
+            infinite: true,
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            nextArrow: <SampleNextArrow />,
+            prevArrow: <SamplePrevArrow />
+        };
+        return (
+            <div>
+                <h2>Custom Arrows</h2>
+                <Slider {...settings}>
+                    <div>
+                        <img src={one} alt='one'></img>
+                    </div>
+                    <div>
+                        <h3>2</h3>
+                    </div>
+                    <div>
+                        <h3>3</h3>
+                    </div>
+                    <div>
+                        <h3>4</h3>
+                    </div>
+                    <div>
+                        <h3>5</h3>
+                    </div>
+                    <div>
+                        <h3>6</h3>
+                    </div>
+                </Slider>
+            </div>
+        );
+    }
 }

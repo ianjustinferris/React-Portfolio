@@ -1,17 +1,17 @@
 import React from 'react';
+import portrait from '../../assets/images/headshot.png'
 
 export default function About() {
     return (
-        <div>
-            <h1>About Page</h1>
-            <p>
-                Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-                Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-                mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-                lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-                imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-                in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
-            </p>
+        <div className="About">
+            <div className='aboutWrapper'>
+                <h1>ABOUT</h1>
+                <img className='portrait' src={portrait} alt='head-shot'></img>
+                <p id="aboutText">
+                    A background in Engineering and Art, I'm looking to integrate those skills into the world of Web-Development. Most recently I'm
+                    interested Machine Learning applications as it relates how we interact with the world on a daily basis.
+                </p>
+            </div>
         </div>
     );
 }
