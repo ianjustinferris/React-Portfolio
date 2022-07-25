@@ -6,7 +6,6 @@ import Navbar from 'react-bootstrap/Navbar';
 function NavTabs({ currentPage, handlePageChange }) {
     return (
         <Navbar bg="white" expand="lg">
-            <Navbar.Brand href="#home"></Navbar.Brand>
             <Container className="navWrapper">
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">

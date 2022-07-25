@@ -36,7 +36,6 @@ li {
     margin-left: 19vw;
     font-size: 7vw;
     display: flex;
-
     letter-spacing: 20vw;
 }
 
@@ -45,7 +44,6 @@ li {
     margin-left: 19vw;
     font-size: 7vw;
     display: flex;
-
     letter-spacing: 5.8vw;
 }
 
@@ -53,7 +51,6 @@ li {
     margin-left: 19vw;
     font-size: 7vw;
     display: flex;
-
     letter-spacing: 1.2vw;
 }
 
@@ -61,7 +58,6 @@ li {
     margin-left: 19vw;
     font-size: 7vw;
     display: flex;
-
     letter-spacing: 1.55vw;
 }
 
@@ -86,26 +82,17 @@ body {
 .navWrapper {
     padding: 0px;
 
-
 }
 
-.portrait {
 
-    clip-path: polygon(50% 0%, 10% 100%, 100% 110%);
-
-
-}
-
-.About {
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+// .About {
+//     height: 90%;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+// }
 
 #aboutText {
-    display: flex;
-    justify-content: center;
     width: 20vw;
     min-width: 300px;
     letter-spacing: .75vw;
@@ -116,6 +103,14 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 100%;
+    height: 90vh;
     width: 100%
+}
+
+.navbar-toggler {
+    z-index: 100
+}
+
+.navbar-toggler-icon {
+    z-index: 100
 }
