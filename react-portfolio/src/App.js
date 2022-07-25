@@ -1,11 +1,11 @@
-
 import './App.scss';
-import Layout from './components/Layout'
+import PortfolioContainer from './components/Header';
+import { useState } from 'react'
 
 function App() {
   return (
     <div className='app'>
-      <Layout />
+      <PortfolioContainer />
     </div>
 
   );
