@@ -1,14 +1,20 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.a29ad249.css",
-    "main.js": "/React-Portfolio/static/js/main.a1ec65c4.js",
+    "main.css": "/React-Portfolio/static/css/main.6db26ba4.css",
+    "main.js": "/React-Portfolio/static/js/main.7eb0a20d.js",
+    "static/media/2.png": "/React-Portfolio/static/media/2.1ee327a279e6b1eac2e3.png",
+    "static/media/headshot.png": "/React-Portfolio/static/media/headshot.2399a5ebfd7d492fce94.png",
     "static/media/CheeeDemo-Stinkhead.otf": "/React-Portfolio/static/media/CheeeDemo-Stinkhead.64cef7eb3e74498cf124.otf",
+    "static/media/slick.svg": "/React-Portfolio/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/React-Portfolio/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/React-Portfolio/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/React-Portfolio/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/React-Portfolio/index.html",
-    "main.a29ad249.css.map": "/React-Portfolio/static/css/main.a29ad249.css.map",
-    "main.a1ec65c4.js.map": "/React-Portfolio/static/js/main.a1ec65c4.js.map"
+    "main.6db26ba4.css.map": "/React-Portfolio/static/css/main.6db26ba4.css.map",
+    "main.7eb0a20d.js.map": "/React-Portfolio/static/js/main.7eb0a20d.js.map"
   },
   "entrypoints": [
-    "static/css/main.a29ad249.css",
-    "static/js/main.a1ec65c4.js"
+    "static/css/main.6db26ba4.css",
+    "static/js/main.7eb0a20d.js"
   ]
 }
