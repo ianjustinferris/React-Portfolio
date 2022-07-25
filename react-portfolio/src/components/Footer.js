@@ -5,7 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 
 export default function Footer() {
     return (
-        <Navbar fixed="bottom" >
+        <Navbar fixed="bottom" className="navFooter">
             <div className='Footer'>
                 <a href="https://github.com/ianjustinferris" target="_blank" rel="noreferrer"
                 ><i class="fa-brands fa-github"></i></a>
