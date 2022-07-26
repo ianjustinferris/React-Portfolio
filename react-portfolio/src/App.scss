@@ -474,3 +474,17 @@ img:hover {
     // -ms-transition: all 1s ease;
     transition: all .5s ease;
 }
+
+.Resume {
+    font-family: 'Degular Thin';
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-file-user {
+    margin-bottom: 2vw;
+    margin-top: 2vw
+}
