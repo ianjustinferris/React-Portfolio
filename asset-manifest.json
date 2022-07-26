@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.bc9937d1.css",
-    "main.js": "/React-Portfolio/static/js/main.d5217e8a.js",
+    "main.css": "/React-Portfolio/static/css/main.234c7ccc.css",
+    "main.js": "/React-Portfolio/static/js/main.c6dbf157.js",
     "static/media/wildlifeCensus.png": "/React-Portfolio/static/media/wildlifeCensus.9e21798f80002eb4d35c.png",
     "static/media/game.png": "/React-Portfolio/static/media/game.124a4a3d2ed1204cdb34.png",
     "static/media/Daily.png": "/React-Portfolio/static/media/Daily.978c7205a65e86278a1c.png",
     "static/media/weather.png": "/React-Portfolio/static/media/weather.e8ad532bd536f644b2e7.png",
+    "static/media/RESUME (3).pdf": "/React-Portfolio/static/media/RESUME (3).297a441b8072e93b0d83.pdf",
     "static/media/headshotBW.png": "/React-Portfolio/static/media/headshotBW.eed8abb67f126ac6e381.png",
     "static/media/Note.png": "/React-Portfolio/static/media/Note.ad5a4413db0ca224b22b.png",
     "static/media/JATE.png": "/React-Portfolio/static/media/JATE.64c3588431cbf1b80b61.png",
     "static/media/Degular-Bold.otf": "/React-Portfolio/static/media/Degular-Bold.0c781e915b00a895ae7c.otf",
     "static/media/Degular-Thin.otf": "/React-Portfolio/static/media/Degular-Thin.e2898678808445347b7b.otf",
     "index.html": "/React-Portfolio/index.html",
-    "main.bc9937d1.css.map": "/React-Portfolio/static/css/main.bc9937d1.css.map",
-    "main.d5217e8a.js.map": "/React-Portfolio/static/js/main.d5217e8a.js.map"
+    "main.234c7ccc.css.map": "/React-Portfolio/static/css/main.234c7ccc.css.map",
+    "main.c6dbf157.js.map": "/React-Portfolio/static/js/main.c6dbf157.js.map"
   },
   "entrypoints": [
-    "static/css/main.bc9937d1.css",
-    "static/js/main.d5217e8a.js"
+    "static/css/main.234c7ccc.css",
+    "static/js/main.c6dbf157.js"
   ]
 }
