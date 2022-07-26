@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.e2615ed7.css",
-    "main.js": "/React-Portfolio/static/js/main.9ad261e1.js",
-    "static/media/headshot.png": "/React-Portfolio/static/media/headshot.2399a5ebfd7d492fce94.png",
+    "main.css": "/React-Portfolio/static/css/main.325c882e.css",
+    "main.js": "/React-Portfolio/static/js/main.a119305f.js",
+    "static/media/headshotBW.png": "/React-Portfolio/static/media/headshotBW.eed8abb67f126ac6e381.png",
     "static/media/Degular-Bold.otf": "/React-Portfolio/static/media/Degular-Bold.0c781e915b00a895ae7c.otf",
     "static/media/Degular-Thin.otf": "/React-Portfolio/static/media/Degular-Thin.e2898678808445347b7b.otf",
     "index.html": "/React-Portfolio/index.html",
-    "main.e2615ed7.css.map": "/React-Portfolio/static/css/main.e2615ed7.css.map",
-    "main.9ad261e1.js.map": "/React-Portfolio/static/js/main.9ad261e1.js.map"
+    "main.325c882e.css.map": "/React-Portfolio/static/css/main.325c882e.css.map",
+    "main.a119305f.js.map": "/React-Portfolio/static/js/main.a119305f.js.map"
   },
   "entrypoints": [
-    "static/css/main.e2615ed7.css",
-    "static/js/main.9ad261e1.js"
+    "static/css/main.325c882e.css",
+    "static/js/main.a119305f.js"
   ]
 }
