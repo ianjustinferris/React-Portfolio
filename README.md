@@ -28,7 +28,7 @@ N/A
 
 ## Screen_Shot
 
-![GIF]<img src="./src/assets/images/GIF.gif"/>
+![GIF]<img src="/src/assets/images/GIF.gif"/>
 
 ## Credits
 
