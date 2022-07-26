@@ -28,7 +28,7 @@ N/A
 
 ## Screen_Shot
 
-![GIF](./src/assets/images/React Portfolio (1).gif)
+![GIF]<img src="./src/assets/images/GIF.gif" width="750px" height="420px" />
 
 ## Credits
 
