@@ -1,5 +1,13 @@
 $primary-color: #ffd700;
 
+html {
+    overflow: scroll;
+}
+
+body {
+    min-height: 100vw
+}
+
 @import 'animate.css';
 
 @font-face {
@@ -43,7 +51,7 @@ li {
     font-size: 7vw;
     display: flex;
     letter-spacing: 17.9vw;
-    animation-duration: 2s;
+    animation-duration: 3s;
 }
 
 #nameL {
@@ -53,7 +61,7 @@ li {
     font-size: 7vw;
     display: flex;
     letter-spacing: 5.15vw;
-    animation-duration: 2s;
+    animation-duration: 3s;
 }
 
 #fs {
@@ -63,7 +71,7 @@ li {
     font-size: 7vw;
     display: flex;
     letter-spacing: 1.2vw;
-    animation-duration: 2s;
+    animation-duration: 3s;
 }
 
 #d {
@@ -73,7 +81,7 @@ li {
     font-size: 7vw;
     display: flex;
     letter-spacing: 1.55vw;
-    animation-duration: 2s;
+    animation-duration: 3s;
 }
 
 .Home {
@@ -103,27 +111,38 @@ body {
 }
 
 
-// .About {
-//     height: 90%;
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-// }
-
-#aboutText {
-    width: 20vw;
-    min-width: 300px;
-    letter-spacing: .75vw;
-    // margin-left: 10vw
-}
-
-.aboutWrapper {
+.About {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    height: 90vh;
-    width: 100%
 }
+
+.aboutHeader {
+    font-family: 'Degular Thin';
+}
+
+.portrait {
+    margin-top: -10px;
+    height: 20vw;
+    min-height: 200px;
+    width: 14vw;
+    min-width: 140px;
+}
+
+.aboutText {
+    margin-top: calc(16px + 2vw);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: calc(16px + 1vw);
+    font-family: 'Degular Thin';
+    width: 35vw;
+    min-width: 330px;
+    letter-spacing: 1.1vw;
+}
+
+
 
 .navbar-toggler {
     z-index: 100;
